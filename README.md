@@ -38,8 +38,9 @@ Covalence
     10. Wait on the result, and then log: The final result is ___, where you fill in the blank with the final result.
 
     11. Add a `.catch` function to handle any errors that occur. Log the error to the console.
-    
+
 3. Open index.html in your browser and open the developer console. If you've done everything correctly, you should see values being logged to the console once per second, ending with a final result of 42.
+
 4. When you are finished with that, try changing the very first step to add together 1 and 1, instead of 6 and 2. What happens? What could cause one of the SlowMath functions to reject? How do rejections affect the execution of our Promise chain?
 
 That's pretty much it when it comes to using Promises. If you want to keep working, you can play around with different values, construct your own chain, etc.

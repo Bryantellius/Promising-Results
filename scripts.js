@@ -25,14 +25,14 @@ slowMath.add(6, 2)
 })
 .then((answer) => {
     console.log(answer);
-    return slowMath.divide(answer, 40);
+    return slowMath.remainder(answer, 40);
 })
 .then((answer) => {
     console.log(answer);
     return slowMath.add(answer, 32);
 })
 .then((answer) => {
-    console.log(`The final result is ${answer}`);
+    console.log(`The final result is ${answer}.`);
 })
 .catch((err) => {
     console.log(err);
