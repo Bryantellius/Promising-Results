@@ -8,7 +8,7 @@ let card7 = document.getElementById('card7');
 let card8 = document.getElementById('card8');
 let card9 = document.getElementById('card9');
 
-slowMath.add(6, 2)
+slowMath.add(10, 3)
 .then((answer) => {
     console.log(answer);
     card1.textContent = answer;
@@ -54,5 +54,6 @@ slowMath.add(6, 2)
     card9.textContent = `The final result is ${answer}.`;
 })
 .catch((err) => {
-    console.log(err);
+    alert(err);
+    
 })
